@@ -2,13 +2,14 @@
 ishita verma's projects
 
 Folder 1) Microservice Chaos Engineering Implementation
+
     Overview:
         In my project, I focused on fortifying the reliability of the Tax and Catalog microservices by applying Chaos Engineering principles and implementing Circuit Breaker patterns. 
         To facilitate testing, I created dummy microservices and intentionally shut down the Tax service to observe how Circuit Breaker patterns, including retry mechanisms, ensured 
         uninterrupted data retrieval. My tech stack included STS, Spring Boot, Maven, Java, RestTemplate, and H2 Database.
     
     Objectives:
-    
+
         Resilience Enhancement: My primary goal was to improve the Tax and Catalog microservices' resilience in the face of faults and disruptions.
         
         Chaos Engineering: I proactively identified and mitigated vulnerabilities using Chaos Engineering practices.
