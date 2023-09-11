@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.milestone2game.InitialConfigurationScreen">
+
+
+    <EditText
+        android:id="@+id/playerName"
+        android:layout_width="265dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="65dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/difficulties"
+        android:layout_width="265dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginBottom="324dp"
+        android:backgroundTint="#D6C798"
+        android:entries="@array/difficulties"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/chosenDifficulty"
+        android:layout_width="198dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginEnd="245dp"
+        android:layout_marginBottom="184dp"
+        android:text="Difficulty:"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/chosenName"
+        android:layout_width="196dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="222dp"
+        android:text="Player name:"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="120dp"
+        android:text="Continue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/quitbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="620dp"
+        android:background="#C14545"
+        android:backgroundTint="#C14545"
+        android:text="Quit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#C14545" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
